@@ -1,12 +1,12 @@
 import Question from "../components/Question";
 import Fruit from "../assets/Fruit.png";
 
-function Aromatic() {
+function Citrus() {
   return (
     <div>
-      <Question questionTitle="J'aime les notes florales ?" imgSource={Fruit} />
+      <Question questionTitle="J'AIMES LES NOTES D'AGRUMES" imgSource={Fruit} />
     </div>
   );
 }
 
-export default Aromatic;
+export default Citrus;
