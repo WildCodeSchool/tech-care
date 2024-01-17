@@ -1,5 +1,12 @@
-function Wooded() {
-  return <div>Wooded</div>;
+import Question from "../components/Question";
+import Foret from "../assets/Foret.png";
+
+function Aromatic() {
+  return (
+    <div>
+      <Question questionTitle="J'aime les notes boisées ?" imgSource={Foret} />
+    </div>
+  );
 }
 
-export default Wooded;
+export default Aromatic;
