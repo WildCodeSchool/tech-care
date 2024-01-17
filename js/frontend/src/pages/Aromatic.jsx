@@ -4,7 +4,7 @@ import Foret from "../assets/Foret.png";
 function Aromatic() {
   return (
     <div>
-      <Question questionTitle="J'aime les notes boisées ?" imgSource={Foret} />
+      <Question questionTitle="J'AIME LES NOTES ?" imgSource={Foret} />
     </div>
   );
 }
