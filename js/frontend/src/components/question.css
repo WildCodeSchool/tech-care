@@ -12,6 +12,17 @@
 .rep2,
 .rep3 {
   border: 1px solid white;
-  border-radius: 10px;
-  width: 40px;
+  border-radius: 30px;
+  width: auto;
+}
+.rep1 {
+  font-size: 18px;
+}
+
+.rep2 {
+  font-size: 25px;
+}
+
+.rep3 {
+  font-size: 29px;
 }
