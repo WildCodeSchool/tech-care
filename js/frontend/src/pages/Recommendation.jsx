@@ -5,7 +5,7 @@ function Recommendation() {
   return (
     <div>
       <Header />
-      <h1>Votre sélection de parfum</h1>
+      <h1 className="selection">Votre sélection de parfum</h1>
       <Reco />
     </div>
   );

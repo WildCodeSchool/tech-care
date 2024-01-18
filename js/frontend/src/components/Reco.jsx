@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./reco.css";
 
 export default function Reco({ TitreParfum, MarqueParfum, price }) {
@@ -11,3 +12,9 @@ export default function Reco({ TitreParfum, MarqueParfum, price }) {
     </div>
   );
 }
+
+Reco.propTypes = {
+  TitreParfum: PropTypes.string.isRequired,
+  MarqueParfum: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+};
