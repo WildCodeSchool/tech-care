@@ -4,16 +4,15 @@ import Footer from "../components/Footer";
 
 function Citrus() {
   return (
-
     <>
-     <div>
-      <Question questionTitle="J'AIMES LES NOTES D'AGRUMES" imgSource={Fruit} />
-    </div>
+      <div>
+        <Question
+          questionTitle="J'AIMES LES NOTES D'AGRUMES"
+          imgSource={Fruit}
+        />
+      </div>
       <Footer />
     </>
-
-    
-
   );
 }
 

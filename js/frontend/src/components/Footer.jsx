@@ -4,13 +4,13 @@ function Footer() {
   return (
     <div className="footer-container">
       <div className="left-text">
-        <h2>Nous contacter</h2>
-        <p>Wild Code School</p>
-        <p>171 rue Lucien Faure Bordeaux, 33000</p>
+        <p className="p1">Nous contacter</p>
+        <p className="p2">Wild Code School</p>
+        <p className="p3">171 rue Lucien Faure Bordeaux, 33000</p>
       </div>
       <div className="right-text">
-        <h2>MADE WITH LOVE BY</h2>
-        <h2>TECH CARE</h2>
+        <h2 className="h21">MADE WITH LOVE BY</h2>
+        <h2 className="h22">TECH CARE</h2>
       </div>
     </div>
   );
