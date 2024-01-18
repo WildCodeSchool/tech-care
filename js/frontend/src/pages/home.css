@@ -1,5 +1,6 @@
 * {
   background: black;
+  text-decoration: none;
 }
 .rubis {
   height: 180px;
@@ -41,11 +42,11 @@
   width: 25%;
 }
 
-.logo {
+.logo-fragrance {
   display: flex;
   justify-content: center;
 }
-.logo img {
+.logo-fragrance img {
   max-width: 50%;
   border: none;
   filter: brightness(90%);
@@ -54,33 +55,37 @@
 .title {
   margin: 20px 60px;
   text-align: center;
-}
-h1 {
-  font-size: 1.5rem;
-  line-height: 45px;
-  z-index: 10;
-  color: white;
+  h1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.5rem;
+    line-height: 45px;
+    z-index: 10;
+    color: white;
+  }
 }
 .subtitle {
   width: 45%;
   margin: 30px auto;
-}
-h2 {
-  font-size: 0.8rem;
-  text-align: center;
-  background: transparent;
-  color: white;
+  h2 {
+    font-size: 0.8rem;
+    text-align: center;
+    background: transparent;
+    color: white;
+    font-family: "Belleza", "sans-serif";
+    line-height: 25px;
+  }
 }
 .btn {
   margin: 20px auto;
   display: flex;
   justify-content: center;
-}
-button {
-  background: white;
-  padding: 10px 25px;
-  border: none;
-  z-index: 1;
+  .btn-home {
+    background: white;
+    padding: 10px 25px;
+    border: none;
+    z-index: 1;
+    text-decoration: none;
+  }
 }
 .text-content {
   width: 100%;
@@ -88,13 +93,13 @@ button {
   padding: 20px;
   display: flex;
   justify-content: center;
-}
-p {
-  color: white;
-  text-align: center;
-  font-size: 0.8rem;
-  /* filter: brightness(50%); */
-  line-height: 30px;
+  p {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: "Belleza";
+    line-height: 30px;
+  }
 }
 @media screen and (min-width: 800px) {
   .subtitle h2 {

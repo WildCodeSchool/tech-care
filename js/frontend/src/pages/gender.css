@@ -2,27 +2,29 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* overflow: hidden; */
+
 }
 
 .container-gender {
   max-width: 100%;
   height: 100vh;
-  margin: 50px 100px;
+  margin: 50px 50px;
   position: relative;
 
+  .question-gender {
+    position: fixed;
+    font-size: 1rem;
+    margin: 0 40%;
+    text-align: center;
+    color: white;
+    
+  }
   button {
     background: transparent;
   }
 }
-.question-gender {
-  font-size: 1.2rem;
-  margin: auto;
-  text-align: center;
-}
 .flex-gender {
   display: flex;
-
   flex-direction: column;
 }
 .img-woman {
@@ -33,6 +35,8 @@
   left: 10%;
   animation: floatImage 4s ease-in-out forwards infinite;
   animation-delay: 2s, 3s;
+  border: none;
+  cursor: pointer;
 }
 .img-man {
   max-width: 40%;
@@ -42,14 +46,24 @@
   top: 50%;
   transform: translateY(0);
   animation: floatImage 4s ease-in-out forwards infinite;
+  cursor: pointer;
 }
 .text-neutre {
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 20%;
   transform: translate(-50%, -40%);
   font-size: 1.3rem;
   color: white;
+  cursor: pointer;
+  border: none;
+}
+.footer-gender {
+  width: 100%;
+  position: absolute;
+  bottom: 20px ;
+  
+
 }
 @media screen and (min-width: 500px) {
   .img-woman {
@@ -57,6 +71,7 @@
   }
   .text-neutre {
     top: 65%;
+    border: none;
   }
 }
 @media screen and (min-width: 600px) {
