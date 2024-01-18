@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import Group from "../assets/Group.png";
 import "./reco.css";
 import { Link } from "react-router-dom";
 
