@@ -1,4 +1,5 @@
 import "./homePage.css";
+import { Link } from "react-router-dom";
 import fragrance from "../assets/Fragrance.svg";
 import rubis from "../assets/rubis.png";
 import mer from "../assets/mer.png";
@@ -23,9 +24,11 @@ function HomePage() {
       <div className="subtitle">
         <h2>Recevez jusqu à 5 échantillons de parfum chez vous pour 20€</h2>
       </div>
-      <div className="btn">
-        <button type="button">TROUVER MON PARFUM →</button>
-      </div>
+      <Link to="/gender">
+        <div className="btn">
+          <button type="button">TROUVER MON PARFUM →</button>
+        </div>
+      </Link>
       <div className="text-content">
         <p>
           Découvrez votre parfum idéal avec Fragrance by L'Oréal . Répondez à
