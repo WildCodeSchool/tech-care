@@ -55,6 +55,7 @@ const getSenteursParfum = async (req, res, next) => {
 const getParfum = async (req, res, next) => {
   try {
     const parfum = await tables.parfum.lireParfum(req.params.id);
+    parfum.senteurs = await tables.parfum.lireSenteursParfum(parfum.id);
     res.json(parfum);
   } catch (err) {
     next(err);

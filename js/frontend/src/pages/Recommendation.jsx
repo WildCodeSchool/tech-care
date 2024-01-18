@@ -30,6 +30,7 @@ function Recommendation() {
       {getReco.map((reco) => (
         <Reco
           key={reco.id}
+          id={reco.id}
           nom={reco.nom}
           marque={reco.marque}
           prix={reco.prix}

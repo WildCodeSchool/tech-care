@@ -67,7 +67,7 @@ const router = createBrowserRouter([
         element: <Recommendation />,
       },
       {
-        path: "/product",
+        path: "/product/:id",
         element: <Product />,
       },
     ],

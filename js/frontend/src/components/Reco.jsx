@@ -2,8 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 // import Group from "../assets/Group.png";
 import "./reco.css";
+import { Link } from "react-router-dom";
 
-export default function Reco({ nom, marque, prix, image, pourcent }) {
+export default function Reco({ id, nom, marque, prix, image, pourcent }) {
   return (
     <div className="reco-container">
       <div className="eheh">
@@ -14,13 +15,15 @@ export default function Reco({ nom, marque, prix, image, pourcent }) {
         <h3 className="ho">{marque}</h3>
         <p className="ha">Correspondance : {pourcent} %</p>
         <p className="ha">{prix} €</p>
-        <button type="button">Voir le produit</button>
+
+        <Link to={`/product/${id}`}>Voir le produit</Link>
       </div>
     </div>
   );
 }
 
 Reco.propTypes = {
+  id: PropTypes.number.isRequired,
   nom: PropTypes.string.isRequired,
   marque: PropTypes.string.isRequired,
   prix: PropTypes.number.isRequired,
