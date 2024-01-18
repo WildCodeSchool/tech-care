@@ -62,6 +62,7 @@ h1 {
   font-size: 1.5rem;
   line-height: 45px;
   z-index: 10;
+  color: white;
 }
 .subtitle {
   width: 45%;
@@ -71,6 +72,7 @@ h2 {
   font-size: 0.8rem;
   text-align: center;
   background: transparent;
+  color: white;
 
 }
 .btn {
@@ -93,7 +95,8 @@ button {
   justify-content: center;
 }
 p {
-  
+  color: white;
+  text-align: center;
   font-size: 0.8rem;
   /* filter: brightness(50%); */
   line-height: 30px;
