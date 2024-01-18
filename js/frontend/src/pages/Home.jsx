@@ -16,7 +16,7 @@ function Home() {
       <img className="montagne" src={montagne} alt="" />
       <img className="cactus" src={cactus} alt="" />
       <img className="fleur" src={fleur} alt="" />
-      <div className="logo">
+      <div className="logo-fragrance">
         <img src={fragrance} alt="Logo fragrance" />
       </div>
       <div className="title">
@@ -27,7 +27,9 @@ function Home() {
       </div>
       <Link to="/gender">
         <div className="btn">
-          <button type="button">TROUVER MON PARFUM →</button>
+          <button className="btn-home" type="button">
+            TROUVER MON PARFUM →
+          </button>
         </div>
       </Link>
       <div className="text-content">

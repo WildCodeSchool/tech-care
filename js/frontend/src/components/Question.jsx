@@ -1,7 +1,6 @@
 import { useNavigate, useOutletContext } from "react-router-dom";
 import "./question.css";
 
-export default function question({ Titre, title, imgSource }) {
 export default function question({ Titre, title, imgSource, nextPage }) {
   const navigate = useNavigate();
   const { setPrefs } = useOutletContext();
@@ -45,7 +44,6 @@ export default function question({ Titre, title, imgSource, nextPage }) {
           >
             Beaucoup
           </button>
-
         </div>
       </div>
     </div>

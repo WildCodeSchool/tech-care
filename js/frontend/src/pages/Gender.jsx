@@ -2,6 +2,7 @@ import "./gender.css";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import femme from "../assets/Femme.png";
 import homme from "../assets/Homme.png";
+import Footer from "../components/Footer";
 
 function Gender() {
   const navigate = useNavigate();
@@ -38,6 +39,9 @@ function Gender() {
         >
           NEUTRE
         </button>
+      </div>
+      <div className="footer-gender">
+        <Footer />
       </div>
     </div>
   );
