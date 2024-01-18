@@ -5,7 +5,17 @@
   height: 80vh;
   padding-top: 70px;
   margin-bottom: 100px;
-
+  p {
+    font-family: "IBM Plex Mono", monospace;
+  }
+  .logo-second {
+    position: absolute;
+    height: 100px;
+    left: 50%;
+    margin-left: -75px;
+    background: none;
+    top: 0px;
+  }
   button {
     background: transparent;
     color: white;
