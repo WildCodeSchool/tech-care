@@ -1,3 +1,29 @@
 .product-container {
-  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding: 80px;
+  color: #ffffff;
+}
+
+p.ha {
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+h1.hi {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+h3.ho {
+  padding: 10px;
+  background-color: white;
+  color: black;
 }

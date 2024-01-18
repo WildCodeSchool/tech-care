@@ -26,7 +26,7 @@ function Product() {
     <div>
       <Header />
       {product && (
-        <div className="product-container">
+        <div className="product-container page-specific">
           <img className="coucou" src={product.image} alt="parfum" />
           <h1 className="hi">{product.nom}</h1>
           <h3 className="ho">{product.marque}</h3>
