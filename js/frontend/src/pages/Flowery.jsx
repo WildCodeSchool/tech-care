@@ -1,10 +1,10 @@
 import Question from "../components/Question";
-import Fleur from "../assets/Fleur.png";
+import Rose from "../assets/Rose.png";
 
 function Flowery() {
   return (
     <div>
-      <Question questionTitle="J'AIME LES NOTES FLORALES" imgSource={Fleur} />
+      <Question questionTitle="J'AIME LES NOTES FLORALES" imgSource={Rose} />
     </div>
   );
 }
