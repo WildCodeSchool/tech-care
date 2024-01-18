@@ -4,7 +4,7 @@ import "./header.css";
 import Mer from "../assets/Mer.png";
 import Fleur from "../assets/Fleur.png";
 import Group from "../assets/Group.png";
-import fragrance from "../assets/Fragrance.svg";
+import fragrance from "../assets/Fragrance.png";
 
 export default function Header() {
   return (
