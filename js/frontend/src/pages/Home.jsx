@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
 import "./home.css";
-import fragrance from "../assets/Fragrance.svg";
+import fragrance from "../assets/Fragrance.png";
 import rubis from "../assets/rubis.png";
 import mer from "../assets/mer.png";
 import montagne from "../assets/Group.png";

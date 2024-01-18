@@ -16,7 +16,7 @@ function Result() {
         Citrus: (prefs[5] + 1) / 3,
         Wooded: (prefs[6] + 1) / 3,
       },
-      meta: { color: "yellow" },
+      meta: { color: "black" },
     },
     // {
     //   data: {
@@ -53,7 +53,7 @@ function Result() {
       <Link to="/recommendation">
         <div className="btn-recommendation">
           <button className="btn-reco" type="button">
-            Afficher les recommandations
+            AFFICHER LES RECOMMANDATIONS
           </button>
         </div>
       </Link>

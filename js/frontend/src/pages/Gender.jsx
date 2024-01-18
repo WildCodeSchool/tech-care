@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import "./gender.css";
 import { useNavigate, useOutletContext } from "react-router-dom";
 import femme from "../assets/Femme.png";
@@ -17,20 +19,18 @@ function Gender() {
     <div className="container-gender">
       <h1 className="question-gender">QUEL EST VOTRE GENRE ?</h1>
       <div className="flex-gender">
-        <button
-          aria-label="femme"
-          type="button"
+        <img
           onClick={() => handleClick("Femme")}
-        >
-          <img className="img-woman" src={femme} alt="" />
-        </button>
-        <button
-          aria-label="homme"
-          type="button"
+          className="img-woman"
+          src={femme}
+          alt=""
+        />
+        <img
           onClick={() => handleClick("Homme")}
-        >
-          <img className="img-man" src={homme} alt="" />
-        </button>
+          className="img-man"
+          src={homme}
+          alt=""
+        />
         <button
           aria-label="neutre"
           className="text-neutre"
