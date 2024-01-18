@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import Group from "../assets/Group.png";
 import "./reco.css";
 import { Link } from "react-router-dom";
 
@@ -14,9 +13,14 @@ export default function Reco({ id, nom, marque, prix, image, pourcent }) {
         <h1 className="hi">{nom}</h1>
         <h3 className="ho">{marque}</h3>
         <p className="ha">Correspondance : {pourcent} %</p>
-        <p className="ha">{prix} €</p>
-
-        <Link to={`/product/${id}`}>Voir le produit</Link>
+        <p className="hou">{prix} €</p>
+        <div className="view">
+          <button className="view-eh" type="button">
+            <Link className="ViewProduct" to={`/product/${id}`}>
+              Voir le produit
+            </Link>
+          </button>
+        </div>
       </div>
     </div>
   );
