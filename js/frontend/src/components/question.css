@@ -5,6 +5,11 @@
   height: 80vh;
   padding-top: 70px;
   margin-bottom: 100px;
+
+  button {
+    background: transparent;
+    color: white;
+  }
 }
 .Title {
   text-align: center;

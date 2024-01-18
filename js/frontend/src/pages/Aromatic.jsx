@@ -10,6 +10,7 @@ function Aromatic() {
           title="Au quotidien, vous aimez l'odeur d'un :"
           Titre="CHAMPS DE LAVANDE"
           imgSource={Lavande}
+          nextPage="/citrus"
         />
       </div>
       <Footer />

@@ -1,5 +1,5 @@
 import Question from "../components/Question";
-import Rose from "../assets/Rose.png";
+import Foret from "../assets/Foret.png";
 import Footer from "../components/Footer";
 
 function Fern() {
@@ -9,10 +9,8 @@ function Fern() {
         <Question
           title="Au quotidien, vous aimez l'odeur d'une :"
           Titre="BALADE EN FORÊT"
-          imgSource={Rose}
-          Pasdutout="Pas du tout"
-          Unpeu="Un peu"
-          Beaucoup="Beaucoup"
+          imgSource={Foret}
+          nextPage="/flowery"
         />
       </div>
       <Footer />

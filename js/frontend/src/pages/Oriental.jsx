@@ -10,6 +10,7 @@ function Oriental() {
           title="Au quotidien, vous aimez l'odeur de :"
           Titre="L'ENCENS"
           imgSource={Epice}
+          nextPage="/aromatic"
         />
       </div>
       <Footer />

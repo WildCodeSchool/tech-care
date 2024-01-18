@@ -10,6 +10,7 @@ function Flowery() {
           title="Au quotidien, vous aimez l'odeur d'un :"
           Titre="BOUQUET DE ROSES"
           imgSource={Rose}
+          nextPage="/fruity"
         />
       </div>
       <Footer />
