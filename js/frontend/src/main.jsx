@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import "mdb-react-ui-kit/dist/scss/mdb.dark.scss";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Home from "./pages/Home";
 import Gender from "./pages/Gender";
@@ -16,51 +15,58 @@ import Oriental from "./pages/Oriental";
 import Citrus from "./pages/Citrus";
 import Result from "./pages/Result";
 import Recommendation from "./pages/Recommendation";
+import App from "./App";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/gender",
-    element: <Gender />,
-  },
-  {
-    path: "/aromatic",
-    element: <Aromatic />,
-  },
-  {
-    path: "/wooded",
-    element: <Wooded />,
-  },
-  {
-    path: "/flowery",
-    element: <Flowery />,
-  },
-  {
-    path: "/fern",
-    element: <Fern />,
-  },
-  {
-    path: "/fruity",
-    element: <Fruity />,
-  },
-  {
-    path: "/oriental",
-    element: <Oriental />,
-  },
-  {
-    path: "/citrus",
-    element: <Citrus />,
-  },
-  {
-    path: "/result",
-    element: <Result />,
-  },
-  {
-    path: "/recommendation",
-    element: <Recommendation />,
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/gender",
+        element: <Gender />,
+      },
+      {
+        path: "/aromatic",
+        element: <Aromatic />,
+      },
+      {
+        path: "/wooded",
+        element: <Wooded />,
+      },
+      {
+        path: "/flowery",
+        element: <Flowery />,
+      },
+      {
+        path: "/fern",
+        element: <Fern />,
+      },
+      {
+        path: "/fruity",
+        element: <Fruity />,
+      },
+      {
+        path: "/oriental",
+        element: <Oriental />,
+      },
+      {
+        path: "/citrus",
+        element: <Citrus />,
+      },
+      {
+        path: "/result",
+        element: <Result />,
+      },
+      {
+        path: "/recommendation",
+        element: <Recommendation />,
+      },
+    ],
   },
 ]);
 

@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 
 function App() {
   <>
+    <div>test</div>
     <Outlet />
     <Footer />;
   </>;
