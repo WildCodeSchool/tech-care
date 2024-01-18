@@ -1,10 +1,10 @@
 import Question from "../components/Question";
-import Rose from "../assets/Rose.png";
+import Group from "../assets/Group.png";
 
 function Aromatic() {
   return (
     <div>
-      <Question questionTitle="J'aime les notes boisées ?" imgSource={Rose} />
+      <Question questionTitle="J'AIME LES NOTES FOUGERES" imgSource={Group} />
     </div>
   );
 }
