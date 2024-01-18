@@ -1,22 +1,43 @@
 import "./gender.css";
-import { Link } from "react-router-dom";
+import { useNavigate, useOutletContext } from "react-router-dom";
 import femme from "../assets/Femme.png";
 import homme from "../assets/Homme.png";
 
 function Gender() {
+  const navigate = useNavigate();
+  const { setGenre } = useOutletContext();
+
+  const handleClick = (sexe) => {
+    setGenre(sexe);
+    navigate("/fern");
+  };
+
   return (
     <div className="container-gender">
       <h1 className="question-gender">QUEL EST VOTRE GENRE ?</h1>
       <div className="flex-gender">
-        <Link to="/fern/female">
+        <button
+          aria-label="femme"
+          type="button"
+          onClick={() => handleClick("Femme")}
+        >
           <img className="img-woman" src={femme} alt="" />
-        </Link>
-        <Link to="/fern/male">
+        </button>
+        <button
+          aria-label="homme"
+          type="button"
+          onClick={() => handleClick("Homme")}
+        >
           <img className="img-man" src={homme} alt="" />
-        </Link>
-        <Link to="/fern/neutre" className="text-neutre">
+        </button>
+        <button
+          aria-label="neutre"
+          className="text-neutre"
+          type="button"
+          onClick={() => handleClick("Neutre")}
+        >
           NEUTRE
-        </Link>
+        </button>
       </div>
     </div>
   );

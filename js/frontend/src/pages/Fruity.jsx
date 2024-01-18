@@ -10,6 +10,7 @@ function Fruity() {
           title="Au quotidien, vous aimez l'odeur d'un :"
           Titre="PANIER DE FRUIT"
           imgSource={Fruit}
+          nextPage="/oriental"
         />
       </div>
       <Footer />
