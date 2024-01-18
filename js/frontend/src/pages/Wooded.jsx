@@ -10,7 +10,7 @@ function Wooded() {
           title="Au quotidien, vous aimez l'odeur d'un :"
           Titre="CHALET EN BOIS"
           imgSource={Chalet}
-          nextPage="/recommendation"
+          nextPage="/result"
         />
       </div>
       <Footer />
