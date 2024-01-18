@@ -24,3 +24,17 @@
   margin: 0;
   text-align: left;
 }
+
+.hou {
+  font-size: 20px;
+}
+.view-eh {
+  margin-top: 30px;
+  width: 180px;
+  border: 2px solid white;
+  border-radius: 40px;
+}
+.ViewProduct {
+  width: 100%;
+  color: white;
+}

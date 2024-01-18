@@ -4,12 +4,21 @@
 }
 .logo {
   z-index: 100;
+  top: 20px;
   position: absolute;
   background-color: transparent;
+  justify-content: center;
   img {
     height: 100px;
   }
 }
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .sea {
   position: absolute;
   right: 35px;
