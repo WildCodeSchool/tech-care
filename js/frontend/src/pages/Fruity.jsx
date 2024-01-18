@@ -6,7 +6,11 @@ function Fruity() {
   return (
     <>
       <div>
-        <Question questionTitle="J'AIME LES NOTES FRUITÉES" imgSource={Fruit} />
+        <Question
+          title="Au quotidien, vous aimez l'odeur d'un :"
+          Titre="PANIER DE FRUIT"
+          imgSource={Fruit}
+        />
       </div>
       <Footer />
     </>

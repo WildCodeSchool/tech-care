@@ -6,7 +6,11 @@ function Oriental() {
   return (
     <>
       <div>
-        <Question questionTitle="J'AIME LES NOTES ÉPICÉES" imgSource={Epice} />
+        <Question
+          title="Au quotidien, vous aimez l'odeur de :"
+          Titre="L'ENCENS"
+          imgSource={Epice}
+        />
       </div>
       <Footer />
     </>
