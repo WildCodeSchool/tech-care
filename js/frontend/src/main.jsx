@@ -38,7 +38,7 @@ const router = createBrowserRouter([
     element: <Flowery />,
   },
   {
-    path: "/fern",
+    path: "/fern/:gender",
     element: <Fern />,
   },
   {
