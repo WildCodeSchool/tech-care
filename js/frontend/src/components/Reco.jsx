@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 // import Group from "../assets/Group.png";
 import "./reco.css";
 
-export default function Reco({ nom, marque, prix, image }) {
+export default function Reco({ nom, marque, prix, image, pourcent }) {
   return (
     <div className="reco-container">
       <div className="eheh">
@@ -12,7 +12,8 @@ export default function Reco({ nom, marque, prix, image }) {
       <div className="hihi">
         <h1 className="hi">{nom}</h1>
         <h3 className="ho">{marque}</h3>
-        <p className="ha">{prix}</p>
+        <p className="ha">Correspondance : {pourcent} %</p>
+        <p className="ha">{prix} €</p>
         <button type="button">Voir le produit</button>
       </div>
     </div>
@@ -24,4 +25,5 @@ Reco.propTypes = {
   marque: PropTypes.string.isRequired,
   prix: PropTypes.number.isRequired,
   image: PropTypes.string.isRequired,
+  pourcent: PropTypes.number.isRequired,
 };

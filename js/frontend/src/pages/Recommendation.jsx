@@ -29,10 +29,12 @@ function Recommendation() {
       <h1 className="selection">Votre sélection de parfum</h1>
       {getReco.map((reco) => (
         <Reco
+          key={reco.id}
           nom={reco.nom}
           marque={reco.marque}
           prix={reco.prix}
           image={reco.image}
+          pourcent={reco.pourcent}
         />
       ))}
     </div>
