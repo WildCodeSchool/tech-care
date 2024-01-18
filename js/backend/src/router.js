@@ -7,11 +7,13 @@ const router = express.Router();
 /* ************************************************************************* */
 
 // Import itemControllers module for handling item-related operations
-const itemControllers = require("./controllers/itemControllers");
 const parfumControllers = require("./controllers/parfumControllers");
 
-
 router.post("/recos", parfumControllers.getRecos);
+
+router.get("/senteurs/parfums/:id", parfumControllers.getSenteursParfum);
+
+router.get("/parfums/:id", parfumControllers.getParfum);
 
 // Route to get a specific item by ID
 // router.get("/items/:id", itemControllers.read);
