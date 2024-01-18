@@ -15,51 +15,58 @@ import Oriental from "./pages/Oriental";
 import Citrus from "./pages/Citrus";
 import Result from "./pages/Result";
 import Recommendation from "./pages/Recommendation";
+import App from "./App";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/gender",
-    element: <Gender />,
-  },
-  {
-    path: "/aromatic",
-    element: <Aromatic />,
-  },
-  {
-    path: "/wooded",
-    element: <Wooded />,
-  },
-  {
-    path: "/flowery",
-    element: <Flowery />,
-  },
-  {
-    path: "/fern/:gender",
-    element: <Fern />,
-  },
-  {
-    path: "/fruity",
-    element: <Fruity />,
-  },
-  {
-    path: "/oriental",
-    element: <Oriental />,
-  },
-  {
-    path: "/citrus",
-    element: <Citrus />,
-  },
-  {
-    path: "/result",
-    element: <Result />,
-  },
-  {
-    path: "/recommendation",
-    element: <Recommendation />,
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/gender",
+        element: <Gender />,
+      },
+      {
+        path: "/fern/:gender",
+        element: <Fern />,
+      },
+      {
+        path: "/flowery",
+        element: <Flowery />,
+      },
+      {
+        path: "/fruity",
+        element: <Fruity />,
+      },
+      {
+        path: "/oriental",
+        element: <Oriental />,
+      },
+      {
+        path: "/aromatic",
+        element: <Aromatic />,
+      },
+      {
+        path: "/citrus",
+        element: <Citrus />,
+      },
+      {
+        path: "/wooded",
+        element: <Wooded />,
+      },
+      {
+        path: "/result",
+        element: <Result />,
+      },
+      {
+        path: "/recommendation",
+        element: <Recommendation />,
+      },
+    ],
   },
 ]);
 

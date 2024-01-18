@@ -10,9 +10,6 @@ function Fern() {
           title="Au quotidien, vous aimez l'odeur d'une :"
           Titre="BALADE EN FORÊT"
           imgSource={Rose}
-          Pasdutout="Pas du tout"
-          Unpeu="Un peu"
-          Beaucoup="Beaucoup"
         />
       </div>
       <Footer />
