@@ -12,9 +12,9 @@ export default function Header() {
         <img src={fragrance} alt="Logo fragrance" />
       </div>
       <div className="images-header">
-        <img className="mer" src={Mer} alt="" />
-        <img className="fleur" src={Fleur} alt="" />
-        <img className="montagne" src={Group} alt="" />
+        <img className="sea" src={Mer} alt="" />
+        <img className="flower" src={Fleur} alt="" />
+        <img className="mountain" src={Group} alt="" />
       </div>
     </div>
   );
