@@ -16,7 +16,7 @@ function Result() {
         Citrus: (prefs[5] + 1) / 3,
         Wooded: (prefs[6] + 1) / 3,
       },
-      meta: { color: "blue" },
+      meta: { color: "yellow" },
     },
     // {
     //   data: {
@@ -45,7 +45,7 @@ function Result() {
   return (
     <>
       <div className="result-title">
-        <h1 className="result-title-h1">Résultat du Questionnaire</h1>
+        <h1 className="result-title-h1">RÉSULTAT DU QUESTIONNAIRE</h1>
       </div>
       <div className="radar-chart">
         <RadarChart captions={captions} data={data} size={400} />;
