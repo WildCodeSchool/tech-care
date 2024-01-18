@@ -15,6 +15,7 @@ import Citrus from "./pages/Citrus";
 import Wooded from "./pages/Wooded";
 import Result from "./pages/Result";
 import Recommendation from "./pages/Recommendation";
+import Product from "./pages/Product";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
       {
         path: "/recommendation",
         element: <Recommendation />,
+      },
+      {
+        path: "/product",
+        element: <Product />,
       },
     ],
   },
