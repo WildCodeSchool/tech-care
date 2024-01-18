@@ -1,12 +1,16 @@
 import Question from "../components/Question";
-import Foret from "../assets/Foret.png";
+import Lavande from "../assets/Lavande.png";
 import Footer from "../components/Footer";
 
 function Aromatic() {
   return (
     <>
       <div>
-        <Question questionTitle="J'AIME LES NOTES ?" imgSource={Foret} />
+        <Question
+          title="Au quotidien, vous aimez l'odeur d'un :"
+          Titre="CHAMPS DE LAVANDE"
+          imgSource={Lavande}
+        />
       </div>
       <Footer />
     </>

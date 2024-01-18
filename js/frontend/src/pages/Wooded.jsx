@@ -6,7 +6,11 @@ function Wooded() {
   return (
     <>
       <div>
-        <Question questionTitle="J'AIME LES NOTES BOISÉES" imgSource={Foret} />
+        <Question
+          title="Au quotidien, vous aimez l'odeur d'un :"
+          Titre="CHALET EN BOIS"
+          imgSource={Foret}
+        />
       </div>
       <Footer />
     </>

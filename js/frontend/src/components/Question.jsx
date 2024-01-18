@@ -1,9 +1,10 @@
 import "./question.css";
 
-export default function question({ questionTitle, imgSource }) {
+export default function question({ Titre, title, imgSource }) {
   return (
     <div className="question-container">
-      <h1 className="question">{questionTitle}</h1>
+      <p className="title">{title}</p>
+      <h1 className="Title">{Titre}</h1>
       <img className="img" src={imgSource} alt="img-background" />
       <div className="reponses">
         <h3 className="rep1">Pas du tout</h3>

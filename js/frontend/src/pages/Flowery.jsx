@@ -6,7 +6,11 @@ function Flowery() {
   return (
     <>
       <div>
-        <Question questionTitle="J'AIME LES NOTES FLORALES" imgSource={Rose} />
+        <Question
+          title="Au quotidien, vous aimez l'odeur d'un :"
+          Titre="BOUQUET DE ROSES"
+          imgSource={Rose}
+        />
       </div>
       <Footer />
     </>

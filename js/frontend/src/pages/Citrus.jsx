@@ -1,5 +1,5 @@
 import Question from "../components/Question";
-import Fruit from "../assets/Fruit.png";
+import JusOrange from "../assets/JusOrange.png";
 import Footer from "../components/Footer";
 
 function Citrus() {
@@ -7,8 +7,9 @@ function Citrus() {
     <>
       <div>
         <Question
-          questionTitle="J'AIMES LES NOTES D'AGRUMES"
-          imgSource={Fruit}
+          title="Au quotidien, vous aimez l'odeur du :"
+          Titre="JUS D'ORANGE DU MATIN"
+          imgSource={JusOrange}
         />
       </div>
       <Footer />
