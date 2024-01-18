@@ -2,6 +2,7 @@ import { Link, useOutletContext } from "react-router-dom";
 import "./result.css";
 import RadarChart from "react-svg-radar-chart";
 import "react-svg-radar-chart/build/css/index.css";
+import Footer from "../components/Footer";
 
 function Result() {
   const { prefs } = useOutletContext();
@@ -45,7 +46,12 @@ function Result() {
   return (
     <>
       <div className="result-title">
-        <h1 className="result-title-h1">RÉSULTAT DU QUESTIONNAIRE</h1>
+        <img
+          src="./src/assets/Fragrance2.png"
+          alt="logo"
+          className="logo-second"
+        />
+        <h1 className="result-title-h1">VOS RÉSULTATS</h1>
       </div>
       <div className="radar-chart">
         <RadarChart captions={captions} data={data} size={400} />;
@@ -57,6 +63,7 @@ function Result() {
           </button>
         </div>
       </Link>
+      <Footer />;
     </>
   );
 }

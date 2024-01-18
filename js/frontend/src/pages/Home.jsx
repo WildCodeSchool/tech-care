@@ -20,10 +20,7 @@ function Home() {
         <img src={fragrance} alt="Logo fragrance" />
       </div>
       <div className="title">
-        <h1>VOTRE PARFUM DE RÊVE EST CHEZ L'ORÉAL</h1>
-      </div>
-      <div className="subtitle">
-        <h2>Recevez jusqu à 5 échantillons de parfum chez vous pour 20€</h2>
+        <h1>VOTRE PARFUM DE RÊVE, SE TROUVE CHEZ L'ORÉAL</h1>
       </div>
       <Link to="/gender">
         <div className="btn">

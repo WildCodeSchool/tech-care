@@ -17,6 +17,11 @@ function Gender() {
 
   return (
     <div className="container-gender">
+      <img
+        src="./src/assets/Fragrance2.png"
+        alt="logo"
+        className="logo-second"
+      />
       <h1 className="question-gender">QUEL EST VOTRE GENRE ?</h1>
       <div className="flex-gender">
         <img
