@@ -11,9 +11,9 @@ export default function Reco({ id, nom, marque, prix, image, pourcent }) {
       </div>
       <div className="hihi">
         <h1 className="hi">{nom}</h1>
-        <h3 className="ho">{marque}</h3>
+        <p className="ha">{marque}</p>
         <p className="ha">Correspondance : {pourcent} %</p>
-        <p className="hou">{prix} €</p>
+        <p className="ha">{prix} €</p>
         <div className="view">
           <button className="view-eh" type="button">
             <Link className="ViewProduct" to={`/product/${id}`}>
