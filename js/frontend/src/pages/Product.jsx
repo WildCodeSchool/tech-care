@@ -34,7 +34,7 @@ function Product() {
           <h3 className="ho">{product.marque}</h3>
           <p className="ha">{product.genre}</p>
           <p className="ha">{product.prix} €</p>
-          <p className="ha">{product.format} €</p>
+          <p className="ha">{product.format}</p>
           <p className="ha">{product.description}</p>
           <p className="ha">Senteurs : {product?.senteurs?.join(", ")}</p>
         </div>
