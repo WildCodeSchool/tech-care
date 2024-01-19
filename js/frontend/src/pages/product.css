@@ -1,37 +1,44 @@
 .product-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
-  background-color: white;
-  padding: 80px;
+  background: white;
+  padding: 0 30px;
+  padding-bottom: 30px;
   color: #ffffff;
   font-family: "Lato";
 
+  * {
+    background: white;
+  }
+
   .coucou {
-    width: 147px;
-    height: 185px;
-    border-radius: 10px;
-    align-items: center;
+    height: 250px;
+    aspect-ratio: initial;
+    /* border-radius: 10px; */
+    padding: 10px 0;
+    align-self: center;
   }
 }
 
 p.ha {
   background-color: white;
-  text-align: center;
+  text-align: left;
   color: black;
+  padding: 5px 0;
 }
 
 h1.hi {
-  padding: 20px;
+  padding: 20px 0;
   background-color: white;
-  text-align: center;
+  text-align: left;
   color: black;
 }
 
 h3.ho {
-  padding: 10px;
+  padding: 10px 0;
   background-color: white;
   color: black;
 }

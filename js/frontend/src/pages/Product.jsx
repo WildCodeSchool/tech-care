@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "./product.css";
 
 function Product() {
@@ -27,6 +28,7 @@ function Product() {
       <Header />
       {product && (
         <div className="product-container page-specific">
+          <h1 className="selection">Votre parfum de rêve</h1>
           <img className="coucou" src={product.image} alt="parfum" />
           <h1 className="hi">{product.nom}</h1>
           <h3 className="ho">{product.marque}</h3>
@@ -37,6 +39,7 @@ function Product() {
           <p className="ha">Senteurs : {product?.senteurs?.join(", ")}</p>
         </div>
       )}
+      <Footer />
     </div>
   );
 }
