@@ -16,6 +16,7 @@
     align-items: center;
 }
 .btn-recommendation {
+    margin-top: 30px;
     height: 50%;
     width: 100%;
     display: flex;
@@ -27,6 +28,12 @@
         padding: 20px 40px;
         border-radius: 5px;
     }
+    .btn-reco:hover {
+        background: white;
+        color: black;
+        transition: 0.5 ease-in-out;
+    }
+    
 }
 .scale {
     fill: #fafafa00;
@@ -34,7 +41,11 @@
     stroke-width: 2.2px;
 }
 .caption {
-    fill: #f6f5f5;
+    fill: #f6f5f58d;
     font-weight: bold;
     font-family: 'IBM Plex Mono';
+    
+}
+.shape {
+    opacity: 0.8;
 }

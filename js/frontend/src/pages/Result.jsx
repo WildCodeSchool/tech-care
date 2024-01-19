@@ -16,7 +16,7 @@ function Result() {
         Citrus: (prefs[5] + 1) / 3,
         Wooded: (prefs[6] + 1) / 3,
       },
-      meta: { color: "yellow" },
+      meta: { color: "rgb(85, 61, 179)" },
     },
     // {
     //   data: {

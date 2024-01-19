@@ -7,12 +7,11 @@
 
 .container-gender {
   max-width: 100%;
-  height: 100vh;
-  margin: 50px 50px;
+  height: 85vh;
+  margin: 30px 30px 0 30px;
   position: relative;
 
   .question-gender {
-    position: fixed;
     font-size: 1rem;
     margin: 0 40%;
     text-align: center;
@@ -33,8 +32,9 @@
   position: fixed;
   top: 20%;
   left: 10%;
+  transform: translateY(0);
   animation: floatImage 4s ease-in-out forwards infinite;
-  animation-delay: 2s, 3s;
+  animation-delay: 0.5s;
   border: none;
   cursor: pointer;
 }
@@ -46,6 +46,7 @@
   top: 50%;
   transform: translateY(0);
   animation: floatImage 4s ease-in-out forwards infinite;
+  animation-delay: 1.2s;
   cursor: pointer;
 }
 .text-neutre {
