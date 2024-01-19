@@ -5,7 +5,17 @@
   height: 80vh;
   padding-top: 70px;
   margin-bottom: 100px;
-
+  p {
+    font-family: "IBM Plex Mono", monospace;
+  }
+  .logo-second {
+    position: absolute;
+    height: 100px;
+    left: 50%;
+    margin-left: -75px;
+    background: none;
+    top: 0px;
+  }
   button {
     background: transparent;
     color: white;
@@ -58,21 +68,21 @@
 .rep1 {
   position: fixed;
   background: transparent;
-  top: 215px;
+  top: 231px;
   left: 20px;
-  font-size: 10px;
-  width: 70px;
-  height: 70px;
+  font-size: 12px;
+  width: 90px;
+  height: 90px;
 }
 
 .rep2 {
   position: fixed;
   background: transparent;
-  top: 190px;
+  top: 179px;
   left: 240px;
-  font-size: 15px;
-  width: 90px;
-  height: 90px;
+  font-size: 17px;
+  width: 110px;
+  height: 110px;
 }
 
 .rep3 {
@@ -81,8 +91,8 @@
   top: 530px;
   left: 140px;
   font-size: 20px;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
 }
 
 @media screen and (min-width: 1200px) {

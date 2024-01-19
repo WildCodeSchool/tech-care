@@ -1,7 +1,9 @@
 import axios from "axios";
+import "./recommendation.css";
 import { useEffect, useState } from "react";
 import { useOutletContext } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Reco from "../components/Reco";
 
 function Recommendation() {
@@ -27,17 +29,20 @@ function Recommendation() {
     <div>
       <Header />
       <h1 className="selection">Votre sélection de parfum</h1>
-      {getReco.map((reco) => (
-        <Reco
-          key={reco.id}
-          id={reco.id}
-          nom={reco.nom}
-          marque={reco.marque}
-          prix={reco.prix}
-          image={reco.image}
-          pourcent={reco.pourcent}
-        />
-      ))}
+      <div>
+        {getReco.map((reco) => (
+          <Reco
+            key={reco.id}
+            id={reco.id}
+            nom={reco.nom}
+            marque={reco.marque}
+            prix={reco.prix}
+            image={reco.image}
+            pourcent={reco.pourcent}
+          />
+        ))}
+      </div>
+      <Footer />
     </div>
   );
 }

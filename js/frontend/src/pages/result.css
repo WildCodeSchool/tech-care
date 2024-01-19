@@ -1,40 +1,53 @@
+.scale {
+  fill: #fafafa00;
+  stroke: #fff;
+  stroke-width: 1.2px;
+}
+.logo-second {
+  position: absolute;
+  height: 100px;
+  left: 50%;
+  margin-left: -75px;
+  background: none;
+  top: 0px;
+}
 .result-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 100%;
-    margin-bottom: 30px;
-    .result-title-h1 {
-        font-family: "IBM Plex Mono", monospace;
-        font-size: 1.5rem;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  margin-bottom: 50px;
+  .result-title-h1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 1.5rem;
+    margin-top: 170px;
+  }
 }
 .radar-chart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
 }
 .btn-recommendation {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    .btn-reco {
-        font-family: "IBM Flex Mono", monospace;
-        border: 1px solid white;
-        color: white;
-        padding: 20px 40px;
-        border-radius: 5px;
-    }
-}
-.scale {
-    fill: #fafafa00;
-    stroke: #fff;
-    stroke-width: 2.2px;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .btn-reco {
+    font-family: "IBM Plex Mono", monospace;
+    border: 1px solid white;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-bottom: 85px;
+  }
 }
 .caption {
-    fill: #f6f5f5;
-    font-weight: bold;
-    font-family: 'IBM Plex Mono';
+  fill: #f6f5f5;
+  font-weight: bold;
+  font-family: "IBM Plex Mono";
+  text-shadow: none;
 }

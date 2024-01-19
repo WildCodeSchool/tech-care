@@ -8,6 +8,7 @@
   width: 27%;
   top: 10px;
   z-index: 1;
+  opacity: 80%;
 }
 .mer {
   position: absolute;
@@ -25,21 +26,23 @@
   top: 50%;
   left: 50%;
   transform: translate(-38%, -110%);
-  opacity: 0.6;
+  opacity: 0.25;
   z-index: 1;
 }
 .cactus {
   position: absolute;
-  width: 37%;
+  width: 55%;
   right: 13px;
   top: 43%;
   background: transparent;
+  opacity: 50%;
 }
 .fleur {
   position: absolute;
   left: 20px;
   top: 43%;
   width: 25%;
+  opacity: 50%;
 }
 
 .logo-fragrance {
@@ -51,28 +54,19 @@
   border: none;
   filter: brightness(90%);
   color: white;
+  z-index: 1;
+  background: none;
+  margin-top: 50px;
 }
 .title {
   margin: 20px 60px;
   text-align: center;
   h1 {
     font-family: "IBM Plex Mono", monospace;
-    font-size: 1.5rem;
-    line-height: 45px;
+    font-size: 1.3rem;
+    line-height: 34px;
     z-index: 10;
     color: white;
-  }
-}
-.subtitle {
-  width: 45%;
-  margin: 30px auto;
-  h2 {
-    font-size: 0.8rem;
-    text-align: center;
-    background: transparent;
-    color: white;
-    font-family: "Belleza", "sans-serif";
-    line-height: 25px;
   }
 }
 .btn {
@@ -85,6 +79,8 @@
     border: none;
     z-index: 1;
     text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+    margin-top: 100px;
   }
 }
 .text-content {
@@ -94,11 +90,12 @@
   display: flex;
   justify-content: center;
   p {
-    color: white;
+    color: #9a8585;
     text-align: center;
     font-size: 0.8rem;
     font-family: "Belleza";
     line-height: 30px;
+    margin-top: 40px;
   }
 }
 @media screen and (min-width: 800px) {
@@ -108,6 +105,7 @@
   }
   h1 {
     z-index: 11;
+    font-family: "IBM Plex Mono";
   }
   .text-content {
     display: flex;
@@ -118,6 +116,10 @@
   p {
     font-size: 1rem;
     background: transparent;
+    color: white;
+    font-size: 1rem;
+    background: transparent;
+    font-family: "Belleza", sans-serif;
   }
   .rubis {
     max-width: 45%;
@@ -137,18 +139,22 @@
     max-width: 35%;
     min-height: 200px;
   }
+  h1 {
+    margin-top: 60px;
+    font-family: "IBM Plex Mono", monospace;
+  }
 }
 @media screen and (min-width: 350px) {
   h1 {
-    margin-top: 60px;
+    margin-top: 74px;
+    font-family: "IBM Plex Mono", monospace;
   }
   h2 {
     font-size: 1.2rem;
   }
   .text-content {
-    margin: 120px auto 0;
+    margin: 32px auto 0;
     min-height: 200px;
-    max-width: 60%;
   }
 }
 @media screen and (min-width: 650px) {
