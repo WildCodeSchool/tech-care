@@ -21,7 +21,7 @@ export default function question({ Titre, title, imgSource, nextPage }) {
 
       <div className="reponses">
         <div>
-          <img className="img" src={imgSource} alt="img-background" />
+          <img className="img" src={imgSource} alt="img-backgroundtest" />
 
           <button
             type="button"
