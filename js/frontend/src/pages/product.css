@@ -7,6 +7,14 @@
   background-color: white;
   padding: 80px;
   color: #ffffff;
+  font-family: "Lato";
+
+  .coucou {
+    width: 147px;
+    height: 185px;
+    border-radius: 10px;
+    align-items: center;
+  }
 }
 
 p.ha {

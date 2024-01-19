@@ -67,6 +67,8 @@
     line-height: 34px;
     z-index: 10;
     color: white;
+    position: relative;
+    background: none;
   }
 }
 .btn {

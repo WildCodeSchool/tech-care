@@ -28,8 +28,8 @@ function Recommendation() {
   return (
     <div>
       <Header />
-      <h1 className="selection">Votre sélection de parfum</h1>
-      <div>
+      <div className="recommendation">
+        <h1 className="selection">Votre sélection de parfum</h1>
         {getReco.map((reco) => (
           <Reco
             key={reco.id}

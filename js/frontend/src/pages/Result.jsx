@@ -54,7 +54,7 @@ function Result() {
         <h1 className="result-title-h1">VOS RÉSULTATS</h1>
       </div>
       <div className="radar-chart">
-        <RadarChart captions={captions} data={data} size={400} />;
+        <RadarChart captions={captions} data={data} size={375} />;
       </div>
       <Link to="/recommendation">
         <div className="btn-recommendation">
