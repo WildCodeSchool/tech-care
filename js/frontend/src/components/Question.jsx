@@ -11,12 +11,17 @@ export default function question({ Titre, title, imgSource, nextPage }) {
   };
   return (
     <div className="question-container">
+      <img
+        src="./src/assets/Fragrance2.png"
+        alt="logo"
+        className="logo-second"
+      />
       <p className="title">{title}</p>
       <h1 className="Title">{Titre}</h1>
 
       <div className="reponses">
         <div>
-          <img className="img" src={imgSource} alt="img-background" />
+          <img className="img" src={imgSource} alt="img-backgroundtest" />
 
           <button
             type="button"

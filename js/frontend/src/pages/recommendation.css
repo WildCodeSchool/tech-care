@@ -1,3 +1,19 @@
+.recommendation {
+  background: white;
+  font-family: "Belleza";
+  padding: 0 10px;
+  padding-bottom: 30px;
+
+  * {
+    background: white;
+  }
+}
+
 .selection {
-  justify-content: center;
+  padding: 20px 0;
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  align-self: center;
 }
